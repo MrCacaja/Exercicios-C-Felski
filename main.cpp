@@ -5,6 +5,7 @@
 #include "horse-shoe-calculator.h"
 #include "bill-calculator.h"
 #include "burger-calculator.h"
+#include "fuel-cost-calculator.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main() {
     cout << "4 - Calculadora de ferraduras \n";
     cout << "5 - Calculadora de pagamentos \n";
     cout << "6 - Calculadora de hambúrguer \n";
+    cout << "7 - Calculadora de gastos de combustível \n";
     cin >> option;
     if (option == 1) {
         askGrades();
@@ -29,6 +31,8 @@ int main() {
         calculateBills();
     } else if (option == 6) {
         calculateBurger();
+    } else if (option == 7) {
+        calculateFuelCost();
     } else {
         cout << "Não há uma função com esse ID. Saindo...";
     }

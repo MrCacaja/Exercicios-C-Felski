@@ -3,4 +3,4 @@ project(felsky_exercises)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(felsky_exercises main.cpp show-sequency.h calculate-average.h grade-calculator.h hello-user.h "horse-shoe-calculator.h" percentage-calculator.h bill-calculator.h burger-calculator.h)
+add_executable(felsky_exercises main.cpp show-sequency.h calculate-average.h grade-calculator.h hello-user.h "horse-shoe-calculator.h" percentage-calculator.h bill-calculator.h burger-calculator.h fuel-cost-calculator.h)
