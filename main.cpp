@@ -20,7 +20,7 @@ int main() {
     cout << "7 - Calculadora de gastos de combustível \n";
     cin >> option;
     if (option == 1) {
-        askGrades();
+        calculateAverage();
     } else if (option == 2) {
         showSequency();
     } else if (option == 3) {
