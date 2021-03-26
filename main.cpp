@@ -6,6 +6,7 @@
 #include "bill-calculator.h"
 #include "burger-calculator.h"
 #include "fuel-cost-calculator.h"
+#include "is-vogal.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ int main() {
     cout << "5 - Calculadora de pagamentos \n";
     cout << "6 - Calculadora de hambúrguer \n";
     cout << "7 - Calculadora de gastos de combustível \n";
+    cout << "8 - Checar se é vogal ou consoante \n";
     cin >> option;
     if (option == 1) {
         calculateAverage();
@@ -33,6 +35,8 @@ int main() {
         calculateBurger();
     } else if (option == 7) {
         calculateFuelCost();
+    } else if (option == 8) {
+        isVogal();
     } else {
         cout << "Não há uma função com esse ID. Saindo...";
     }
